@@ -24,7 +24,7 @@ async function FeatureProject() {
     <div className="w-[95%] md:w-[90%] mx-auto">
       <div className="space-y-4">
         <p className="text-md text-green">FEATURED PROJECT</p>
-        <p className="text-2xl font-bold w-[80%] sm:w-[50%] md:w-[30%]">
+        <p className="text-2xl font-bold w-[80%] sm:w-[50%] ">
           We Provide the Perfect solution <br /> to your business growth
         </p>
         <br />

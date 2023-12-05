@@ -23,7 +23,7 @@ function SiteFooter() {
       <div className='w-full bg-black md:-[600px] py-10'>
         <div className='w-[95%] md:w-[90%] mx-auto md:flex md:justify-evenly !md:items-center space-y-5'>
           {/* section-1  */}
-          <div className="md:w-[30%] space-y-5 md:h-[250px] bg-red">
+          <div className="md:w-[30%] space-y-5 md:h-[250px] ">
             <p className="text-white text-3xl font-bold">WEB LOGO</p>
             <p className="text-white w-[70%]">Some footer text about the Agency. Just alittle Description to help perple understand you better</p>
             <div className="flex space-x-2">
