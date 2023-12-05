@@ -22,10 +22,10 @@ async function FeatureProject() {
 
   return (
     <div className="w-[95%] md:w-[90%] mx-auto">
-      <div>
+      <div className="space-y-4">
         <p className="text-md text-green">FEATURED PROJECT</p>
-        <p className="text-xl font-bold w-[80%] sm:w-[50%] md:w-[30%]">
-          We Provide the Perfect solution to your business growth
+        <p className="text-2xl font-bold w-[80%] sm:w-[50%] md:w-[30%]">
+          We Provide the Perfect solution <br /> to your business growth
         </p>
         <br />
         <br />
@@ -42,10 +42,10 @@ async function FeatureProject() {
             </div>
             <div>
               <div className="flex space-x-2">
-                <p>{singleObj["remark"]}</p>
-                <p>{Date(singleObj["created_at"])}</p>
+                <p className=" text-slate-400">{singleObj["remark"]}</p>
+                <p className=" text-slate-400">{Date(singleObj["created_at"])}</p>
               </div>
-              <p className="text-lg font-semibold">{singleObj["title"]}</p>
+              <p className="text-2xl font-bold text-slate-800">{singleObj["title"]}</p>
             </div>
           </div>
 
@@ -60,10 +60,10 @@ async function FeatureProject() {
                 alt="feature project image"
               />
               <div className="flex space-x-2">
-                <p className="text-[12px]">{data[0].remark}</p>
-                <p className="text-[12px]">{Date(data[0]["created_at"])}</p>
+                <p className="text-[12px] text-slate-400">{data[0].remark}</p>
+                <p className="text-[12px] text-slate-400">{Date(data[0]["created_at"])}</p>
               </div>
-              <p className="text-md md:text-lg font-semibold">
+              <p className="text-md md:text-xl font-bold text-slate-600">
                 {data[0]["title"]}
               </p>
             </div>
@@ -76,10 +76,10 @@ async function FeatureProject() {
                 alt="feature project image"
               />
               <div className="flex space-x-2">
-                <p className="text-[12px]">{data[0].remark}</p>
-                <p className="text-[12px]">{Date(data[0]["created_at"])}</p>
+                <p className="text-[12px] text-slate-400">{data[0].remark}</p>
+                <p className="text-[12px] text-slate-400">{Date(data[0]["created_at"])}</p>
               </div>
-              <p className=" md:text-lg font-semibold">{data[0]["title"]}</p>
+              <p className="text-md md:text-xl font-bold text-slate-600">{data[0]["title"]}</p>
             </div>
             <div className=" md:w-[45%] h-[200px] space-y-1 md:space-y-2 p-0 m-0">
               <Image
@@ -90,10 +90,10 @@ async function FeatureProject() {
                 alt="feature project image"
               />
               <div className="flex space-x-2">
-                <p className="text-[12px]">{data[0].remark}</p>
-                <p className="text-[12px]">{Date(data[0]["created_at"])}</p>
+                <p className="text-[12px] text-slate-400">{data[0].remark}</p>
+                <p className="text-[12px] text-slate-400">{Date(data[0]["created_at"])}</p>
               </div>
-              <p className=" md:text-lg font-semibold">{data[0]["title"]}</p>
+              <p className="text-md md:text-xl font-bold text-slate-600">{data[0]["title"]}</p>
             </div>
             <div className=" md:w-[45%] h-[200px] space-y-1 md:space-y-2 p-0 m-0">
               <Image
@@ -104,10 +104,10 @@ async function FeatureProject() {
                 alt="feature project image"
               />
               <div className="flex space-x-2">
-                <p className="text-[12px]">{data[0].remark}</p>
-                <p className="text-[12px]">{Date(data[0]["created_at"])}</p>
+                <p className="text-[12px] text-slate-400">{data[0].remark}</p>
+                <p className="text-[12px] text-slate-400">{Date(data[0]["created_at"])}</p>
               </div>
-              <p className=" md:text-lg font-semibold">{data[0]["title"]}</p>
+              <p className="text-md md:text-xl font-bold text-slate-600">{data[0]["title"]}</p>
             </div>
           </div>
         </div>

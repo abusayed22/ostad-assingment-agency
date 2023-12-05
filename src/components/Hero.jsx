@@ -21,10 +21,10 @@ async function Hero() {
             <div className='w-[90%] h-[90vh]  mx-auto flex flex-wrap md:justify-center items-center'>
                 {/* hero contend  */}
                 <div className='md:w-[50%] flex flex-col space-y-4'>
-                    <p className='text-2xl font-bold w-[70%] v_lg:w-[90%]'>Increase Your Customers Loyalty and Staisfaction</p>
+                    <p className='text-2xl md:text-5xl font-bold w-[70%] v_lg:w-[85%]'>Increase Your Customers Loyalty and Staisfaction</p>
                     <p className='text-lg w-[90%]'>We help business like yours earn more Customer stadout form competitors,make more money</p>
                     <div className=''>
-                        <button className='bg-green rounded-md py-4 px-10 text-slate-50'>Get Start</button>
+                        <button className='bg-green rounded-[16px] py-4 px-10 text-slate-50 md:w-[175px] md:h-[75px]'>Get Start</button>
                     </div>
                 </div>
 

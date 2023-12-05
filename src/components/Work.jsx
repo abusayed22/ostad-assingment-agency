@@ -21,7 +21,7 @@ async function Work() {
         <div>
             <div className="w-[95%] md:w-[90%] mx-auto space-y-2 ">
                 <p className="text-md text-green">WORK LIST</p>
-                <p className="text-xl font-bold w-[50%] md:w-[30%]">We prvide th perfect solution to your business growth</p>
+                <p className="text-2xl font-bold w-[50%] md:w-[30%]">We prvide th perfect solution <br /> to  your business growth</p>
                 <div className="md:flex justify-around md:h-[300px] md:!mt-10">
                     {data.map((s, i) => (
                         <div key={i} className='flex space-x-1 space-y-5  mx-auto'>
